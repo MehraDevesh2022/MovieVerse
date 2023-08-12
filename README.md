@@ -4,7 +4,9 @@
 
 ## Demo
 
- <img src="./demo/demo.mp4" alt="demo" width="100%">
+  <video width="100%" controls>
+   <source src="./demo/demo.mp4" type="video/mp4">
+  </video>
 
 ## Introduction
 
@@ -112,33 +114,31 @@ TMDB_KEY= # Your TMDB API key
    npm install
    ```
 
+## Run the app
 
- ## Run the app
-  
-   ---
-   
-   1. Run the server:
-   
-   ---
-   
-   ```bash
-   cd server
-   npm start
-   ```
-   
-   2. Run the client:
-   
-   ---
-   
-   ```bash
-   cd client
-   npm start
-   ```
-   
-   3. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-   
-   
-   ## Contributing
+---
+
+1.  Run the server:
+
+---
+
+```bash
+cd server
+npm start
+```
+
+2.  Run the client:
+
+---
+
+```bash
+cd client
+npm start
+```
+
+3.  Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+## Contributing
 
 ---
 
